@@ -1,0 +1,213 @@
+body{
+	font-family: ubuntu, algerian, aerial , sans-serif;
+	margin: 0px;
+}
+h2{
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+/*The Navbar*/
+.nav-link{
+	color: white;
+	font-weight: lighter;
+}
+.nav-link:hover{
+	color: grey;
+}
+
+.navbar-brand{
+	color: white;
+	font-size: 25px;
+}
+.navbar-brand:hover{
+	color: grey;
+}
+.nav-item{
+	padding-right: 15px;
+}
+
+
+/*Both the title and navbar container*/
+
+
+.container-fluid{
+	padding: 3% 15% ;
+}
+
+/*The title section*/
+#title{
+	background-color: #ff4c68;
+	font-family: Montserrat , algerian, aerial , sans-serif;
+	size: 3rem;
+	line-height: 1.5;
+	position: relative;
+}
+.text{
+	position: relative;
+	top: 100px;
+}
+.image-iphone{
+	position: relative;
+	transform: rotate(25deg);
+   top: 175px;
+}
+.button-class{
+	position: relative;
+	top: 50px;
+}
+@media (max-width: 1000px){
+	.image-iphone{
+		transform: rotate(0deg);
+		position: static;
+		padding-top: 175px;
+	}
+	#title{
+		text-align: center;
+	}
+}
+
+/*The feautures section*/
+#features{
+	padding: 7% 15%;
+	position: relative;
+	z-index: 1;
+	background-color: #fff;
+}
+.emoji{
+	margin-bottom: 20px;
+	color: orange;
+}
+.emoji:hover{
+	color: #ff4c68;
+}
+.col-md-4{
+	text-align: center;
+	padding: 5%;
+	line-height: 1.5;
+}
+
+/*The Carousel*/
+
+.Pebbles-img{
+	position: relative;
+	left: 50px;
+   width: 10%;
+   border-radius: 100%;
+}
+
+#testimonials{
+	padding: 7% 15%;
+	background-color: #ff4c68 ;
+	text-align: center;
+}
+.trustees{
+	height: 50px;
+	width: 150px;
+	margin-right: 50px;
+}
+.carousel-item{
+	background-color: #ff4c68 ;
+}
+#lady{
+	margin-left: 200px;
+	border-radius: 100%;
+	width: 10%;
+}
+.second-Slide{
+	color: white;
+	text-align: center;
+	padding: 7% 15%;
+}
+.third-Slide{
+	color: white;
+	text-align: center;
+	padding: 7% 15%;
+}
+#ayushi{
+	margin-left: 200px;
+	border-radius: 100%;
+	width: 10%;
+}
+.carousel-indicators{
+	margin-bottom: 40px;
+}
+.indicator{
+   margin-right: 10px;
+   width: 30px;
+   color: grey;
+}
+.em{
+	position: relative;
+	left: 50px;
+  /*It targets the word of Pebbles , New York near the dog image in the carousel*/
+}
+
+
+/*The press section*/
+
+#press{
+	background-color: #ff4c68;
+	text-align: center;
+	padding-bottom: 3%;
+}
+@media (max-width: 400px){
+	.trustees{
+		padding-bottom: 15px;
+	}
+}
+
+   /*The Pricing Section*/
+
+  #pricing{
+	margin-top: 120px;
+	text-align: center;
+	margin-bottom: 70px;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+.Chihuahua{
+	margin-right: 30px;
+	margin-top: 50px;
+}
+.Labrador{
+	margin-right: 30px;
+	margin-top: 50px;
+}
+.Mastiff{
+	margin-top: 50px;
+	margin-right: 30px;
+}
+.month{
+	color: grey;
+}
+.card-text{
+	color: grey;
+}
+
+/*The CTA section*/
+#cta{
+	background-color: #ff4c68;
+	text-align: center;
+}
+.cta-text{
+  padding-top: 30px;
+  color: white;
+  font-size: 40px;
+}
+.Download-btn{
+	margin-top: 60px;
+	margin-bottom: 70px;
+}
+
+/*Footer section*/
+#footer{
+	margin: 100px 35% 100px 35%;
+}
+.icon{
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.twitter{
+	margin-left: 20px;
+}
